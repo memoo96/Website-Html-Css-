@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    background-color: #360836;
+    padding-left: 37%;
+}
+
+.header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header ul li{
+    float: left;
+    padding: 12px;
+}
+
+.header ul li a{
+    color: #df0048;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.header ul li a:hover{
+    background-color: white;
+}
+
+.active{
+    background-color: white;
+}
+
+
+/*******************************/
+
+.slider{
+    background-image: url('images/cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.slider h1{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slider span{
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+}
+
+.slider p{
+    position: relative;
+    top: 190px;
+    color: white;
+    font-size: 30px;
+}
+
+.slider .work{
+    background-color: red;
+    position: relative;
+    top: 375px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.slider .work h2{
+    padding: 7px;
+    color: white;
+    font-family: cursive;
+    position: relative;
+    top: 5px;
+}
+
+.slider .work:after {
+    content: "";
+    border-top: 20px solid red;
+    border-right: 20px solid transparent; 
+    border-left: 20px solid transparent;
+    position: relative;
+    top:24px;
+    display: inline-block;
+}
+
+/****************************/
+
+.gallary ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gallary ul li{
+    float: left;
+    height: 250px;
+}
+
+.gallary .web{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+} 
+
+.gallary .web h2{
+    color:white;
+    position: relative;
+    top: 10px;
+    font-family: cursive;
+}
+
+/****************************/
+
+.meet{
+    text-align: center;
+}
+
+.meet h1{
+    padding: 80px;
+    color:#ff0048;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+
+.meet ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.meet ul li{
+    float: left;
+    width: 20%;
+    margin-bottom: 30px;
+    margin-left: 220px;
+}
+
+.meet ul li div img{
+    margin-bottom: 20px;
+}
+
+.meet ul li div h2{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    color: #ff0048;
+    font-family: cursive;
+}
+
+.meet ul li div span{
+    margin-left: 130px;
+}
+
+.meet .cont{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+/********************************/
+
+.what{
+    background-image: url('images/Cover_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 20px;
+    height: 550px;
+    padding: 50px;
+}
+
+.what ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.what ul li{
+    float: left;
+    width: 30%;
+    margin-bottom: 80px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+
+.what ul li div h2{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+
+.what ul li div span{
+    margin-left: 130px;
+    color: white;
+    font-size: 20px;
+}
+
+.what .cont{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.what .bullet{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.what .bullet span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #fff;
+    margin-right: 5px;
+}
+
+.what .bullet span:hover{
+    background-color: #ff0048;
+}
+
+/*************************/
+
+.footer{
+    background-color: #dedddd;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 25px;
+    font-family: monospace;
+    color: black;
+    padding: 20px;
+}
+
+
+/************** Book Online Page *****************/
+
+.oursevices {
+    background-image: url('images/coverPage2.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 700px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.oursevices h1{
+    position: relative;
+    top: 100px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.oursevices .big_div{
+    position: relative;
+    top: 110px;
+    background-color: white;
+    padding: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    height: 350px;
+}
+
+.oursevices .big_div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.oursevices .big_div ul li{
+    float: left;
+  
+}
+
+.oursevices .big_div ul li img{
+    height: 300px;
+    margin-left: 90px;
+}
+
+.oursevices .big_div ul li .right{
+    background-color: #eee;
+    padding: 25px;
+    height: 250px;
+    width: 350px;
+}
+
+
+.oursevices .big_div ul li .right p{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.oursevices .big_div ul li .right .cont{
+    background-color:black ;
+    color:  white;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+
+/************** Contact Page *****************/
+
+.tellus {
+    background-image: url('images/coverPage2.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+    padding-top: 70px;
+    position: relative;
+}
+
+.tellus .Contactheader{
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    font-family: monospace;
+    margin-bottom: 25px;
+}
+
+.tellus p{
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+
+.tellus .workwithus{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
+.tellus .workwithus h1{
+    color: #df1a5a;
+    font-size: 50px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.tellus .workwithus form input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    margin-bottom: 10px;
+    background: #df1a5a;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.tellus .workwithus form textarea{
+    display: block;
+    width: 100%;
+    border: 0;
+    margin-bottom: 10px;
+    background: #df1a5a;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.tellus .workwithus form button{
+    float: right;
+    border: 0;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+.become {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.become ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.become ul li{
+    margin-bottom: 30px;
+}
+
+.become ul li h1{
+    color: #df1a5a;
+    font-size: 40px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.become ul li p{
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+}
+
